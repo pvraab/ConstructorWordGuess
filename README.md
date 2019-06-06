@@ -83,11 +83,7 @@ $ node index.js
 
 Using inquirer npm package
 
-
-
-- A word pattern is displayed using underscores ("_") to represent the unguessed letters in the word. The user is prompted to guess a letter after which the letter is entered. The ASCII code of the keystroke is displayed. 
-
- _ _ _ _
+- A word pattern is displayed using underscores ("_ _ _ _") to represent the unguessed letters in the word. The user is prompted to guess a letter after which the letter is entered. The ASCII code of the keystroke is displayed. 
 
 ? Guess a letter? a
 97
