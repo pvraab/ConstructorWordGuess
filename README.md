@@ -83,33 +83,34 @@ $ node index.js
 
 Using inquirer npm package
 
+
+
 - A word pattern is displayed using underscores ("_") to represent the unguessed letters in the word. The user is prompted to guess a letter after which the letter is entered. The ASCII code of the keystroke is displayed. 
 
-_ _ _ _
-_ _ _ _
+ _ _ _ _
 
 ? Guess a letter? a
 97
 
 - A result is then displayed. Either a match, a wrong guess, a duplicate entry, or an invalid non-letter key entry. If it is a match, the number of matches is displayed and the letters are filled in on the word pattern. If not a match, then the number of guesses left is displayed.
 
-  ###### Match
+###### Match
 
 Number of matches 1
 Match!!!
 
 _ _ o m a _ _
 
-###### 	Wrong Guess
+###### Wrong Guess
 
 Number of matches 0
 Wrong Guess!!!  4 guesses remaining
 
-###### 	Duplicate
+###### Duplicate
 
 Letter has already been guessed!
 
-###### 	Invalid non-letter key entry
+###### Invalid non-letter key entry
 
 Not a valid letter!
 
