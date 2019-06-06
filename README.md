@@ -4,7 +4,7 @@
 
 Create a Word Guess command-line game using constructor functions.
 
-![Word Guess Cli](C:/Users/Paul/BootCamp/GitLab/UDEN201903FSF2/Class-Content/11-js-constructors/02-Homework/Instructions/Images/01-WordGuess-Cli.gif)
+![Constructor Word Guess](./images/image01.gif)
 
 ### GitHub Access
 
@@ -69,6 +69,53 @@ The completed game meets the following criteria:
 ### Challenges
 
 This was a pretty straightforward application to develop.
+
+### Results
+
+Gameplay is as follows:
+
+- The user runs the index.js script using node
+
+$ node index.js
+
+- A random word is selected from the "random-word" npmjs package each time the game is played.
+- The app randomly selects either the inquirer or prompts package to do the queries and displays which one is used.
+
+Using inquirer npm package
+
+- A word pattern is displayed using underscores ("_") to represent the unguessed letters in the word. The user is prompted to guess a letter after which the letter is entered. The ASCII code of the keystroke is displayed. 
+
+_ _ _ _
+_ _ _ _
+
+? Guess a letter? a
+97
+
+- A result is then displayed. Either a match, a wrong guess, a duplicate entry, or an invalid non-letter key entry. If it is a match, the number of matches is displayed and the letters are filled in on the word pattern. If not a match, then the number of guesses left is displayed.
+
+  ###### Match
+
+Number of matches 1
+Match!!!
+
+_ _ o m a _ _
+
+###### 	Wrong Guess
+
+Number of matches 0
+Wrong Guess!!!  4 guesses remaining
+
+###### 	Duplicate
+
+Letter has already been guessed!
+
+###### 	Invalid non-letter key entry
+
+Not a valid letter!
+
+A winning game is shown [here](./images/image01.gif), [here](./images/image02.gif), and [here](./images/image03.gif).
+
+A losing game is shown [here](./images/image04.gif), [here](./images/image05.gif), and [here](./images/image06.gif).
 
 ### Technologies Used
 
