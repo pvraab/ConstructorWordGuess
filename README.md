@@ -126,9 +126,9 @@ A losing game is shown [here](./images/image04.gif), [here](./images/image05.gif
 
 ------
 
-- Added To My Portfolio at:
+- Added To my portfolio at:
 
-  [My Portfolio](<https://github.com/pvraab/RaabPortfolio>)
+  [My Portfolio](<https://pvraab.github.io/RaabPortfolio/>) - navigate to the portfolio page.
 
   
 
